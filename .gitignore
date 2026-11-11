@@ -1,0 +1,11 @@
+# Never commit secrets or local state
+.env
+*.env
+*key*.json
+*credentials*
+__pycache__/
+*.pyc
+.DS_Store
+# Workdir-only validation artefacts (not part of the submission)
+# (template/, winner-r1/, data/, spec/, backtest.py, tests/ are kept out
+#  of the submit repo by simply not copying them)
